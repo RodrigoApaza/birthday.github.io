@@ -1,0 +1,32 @@
+/* Colores */
+:root{
+    --negro : #000000;
+    --azul : #1D2B53;
+    --violeta : #7E2553;
+    --verde_oscuro : #008751;
+    --cafe : #AB5236;
+    --plomo : #5F574F;
+    --celeste_palido : #C2C3C7;
+    --blanco : #FFF1E8;
+    --rosa_fuerte : #FF004D;
+    --mostaza : #FFA300;
+    --amarillo : #FFEC27;
+    --verde_claro : #00E436;
+    --celeste : #29ADFF;
+    --morado : #83769C;
+    --rosa_claro : #FF77A8;
+    --piel : #FFCCAA;
+}
+
+body {
+    background-color: var(--piel);
+    color: var(--negro);
+}
+
+.jumbotron {
+    background-color: var(--piel);
+}
+
+.col-md-4 {
+    padding-top: 20px;
+}
